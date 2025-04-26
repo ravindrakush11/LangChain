@@ -1,14 +1,3 @@
-"""
-JSON request structure at /upload-
-{
-    "filepath": [
-        "/content/NLTK.pdf",
-        "/content/The 2011 Cricket World Cup.pdf",
-        "/content/Vanshita_thesis_soft_copy.pdf",
-        "/content/PlantUML_Language_Reference_Guide_en.pdf"
-    ]
-}
-"""
 from langchain.document_loaders import PDFPlumberLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
